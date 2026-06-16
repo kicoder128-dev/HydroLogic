@@ -10,7 +10,7 @@ export const HydroGrid: React.FC = () => {
   const [simResult, setSimResult] = useState<SimulationResult>({ status: 'IDLE', message: '' });
   const [currentFrame, setCurrentFrame] = useState<number>(0);
   
-  const simIntervalRef = useRef<NodeJS.Timeout | null>(null);
+  const simIntervalRef = useRef<any>(null);
 
   useEffect(() => {
     resetGrid();
