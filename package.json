@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://<your-github-username>.github.io/<your-repository-name>",
+  "homepage": "https://kicoder128-dev.github.io/HydroLogic",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
